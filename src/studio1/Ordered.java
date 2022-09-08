@@ -2,7 +2,8 @@ package studio1;
 
 import java.util.Scanner;
 
-public class Ordered {
+public class Ordered 
+{
 
 	/**
 	 * @param args
@@ -15,6 +16,14 @@ public class Ordered {
 		int y = in.nextInt();
 		System.out.println("Value for z?");
 		int z = in.nextInt();
+		
+		boolean b1 = x<y;
+		boolean b2 = y<z;
+		
+		boolean isOrdered = (b1==b2);
+		
+		System.out.println(isOrdered);
+		
 
 	}
 
